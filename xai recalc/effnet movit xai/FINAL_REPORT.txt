@@ -1,0 +1,58 @@
+================================================================================
+COMPLETE SHAP XAI ANALYSIS - RECALCULATED
+EfficientNetV2M + MobileViT + Optuna CatBoost Model
+================================================================================
+
+Generated: January 03, 2026 at 13:51:43
+Model Accuracy: 94.73%
+Samples Analyzed: 16
+
+================================================================================
+ALL 4 REQUIRED VISUALIZATIONS COMPLETED
+================================================================================
+
+1. ✅ SUMMARY PLOT
+   - Per-class distribution plots (8 classes)
+   - Combined all-classes plot
+   - Files: summary_plot_*.png
+
+2. ✅ MEAN ABSOLUTE SHAP
+   - Bar chart visualization
+   - Statistical summary included
+   - Files: mean_absolute_shap.png, mean_absolute_shap.txt
+
+3. ✅ FORCE PLOT
+   - Proper SHAP force plot format
+   - Feature contribution breakdown
+   - 10 individual plots
+   - Files: force_plot_01.png to force_plot_10.png
+
+4. ✅ SHAP HEATMAP + OVERLAY ON PREDICTED IMAGE
+   - 3-panel visualization
+   - Predicted image + Heatmap + Overlay
+   - 10 individual visualizations
+   - Files: heatmap_overlay_01.png to heatmap_overlay_10.png
+
+================================================================================
+KEY METRICS
+================================================================================
+
+Overall Mean Absolute SHAP: 0.012060
+Standard Deviation: 0.016777
+Minimum: 0.000323
+Maximum: 0.053207
+Range: 0.052885
+Coefficient of Variation: 1.39
+
+================================================================================
+PROFESSOR'S FEEDBACK ADDRESSED
+================================================================================
+
+✅ Force plots are now proper SHAP format (not overlay images)
+✅ Mean absolute SHAP properly calculated and visualized
+✅ Overlay images renamed and separated from force plots
+✅ All visualizations match Swin models' format
+
+================================================================================
+TOTAL FILES GENERATED: ~30 visualizations
+================================================================================
