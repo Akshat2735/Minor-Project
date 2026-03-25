@@ -1,0 +1,29 @@
+Optuna + XGBoost optimization summary
+Timestamp: 20260206_171543
+
+Best validation accuracy: 0.9955
+Best hyperparameters:
+  max_depth: 3
+  learning_rate: 0.007580224402646569
+  n_estimators: 114
+  subsample: 0.757193923688814
+  colsample_bytree: 0.792664983254913
+  min_child_weight: 4.266011355267416
+  gamma: 4.072713378392448
+  reg_alpha: 0.4609788408207489
+  reg_lambda: 1.594696109170447
+
+Test metrics (evaluated on held-out test set):
+  Test accuracy: 0.9919
+  Test F1 (weighted): 0.9899
+
+Classification report:
+              precision    recall  f1-score   support
+
+           3       0.99      1.00      0.99       150
+           4       0.00      0.00      0.00         1
+           7       1.00      0.99      0.99        95
+
+    accuracy                           0.99       246
+   macro avg       0.66      0.66      0.66       246
+weighted avg       0.99      0.99      0.99       246
